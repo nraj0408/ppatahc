@@ -3,7 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div >
+    <div className="App">
+      {/* route added */}
+      <Route path ="/" component={Homepage} exact />
+      <Route path="/chats" component={chatpage} />
       
     </div>
   );
